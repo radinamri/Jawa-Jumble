@@ -1,0 +1,99 @@
+.profile-general-wrapper {
+  height: 1;
+  width: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.profile-main-wrapper {
+  height: 1;
+  width: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #00000010;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.profile-navbar-wrapper {
+  height: 1;
+  width: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(90, 60, 45);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.profile-logo-wrapper {
+  width: 75%;
+  display: flex;
+  padding-left: 2%;
+  font-size: xx-large;
+}
+
+.profile-links-wrapper {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.profile-links {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-inputs-wrapper {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.profile-inputs,
+.profile-inputs[type="password"] {
+  height: 30px;
+  width: 100%;
+}
+
+.profile-button {
+  height: 30px;
+  width: 263px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-toggle-button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.profile-delete-account {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: small;
+}
+
+.profile-delete-account-link {
+  padding-left: 5px;
+  color: rgb(90, 60, 45);
+}

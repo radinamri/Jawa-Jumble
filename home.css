@@ -1,0 +1,53 @@
+.home-general-wrapper {
+  height: 1;
+  width: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.home-main-wrapper {
+  height: 1;
+  width: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #00000010;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  gap: 5px;
+}
+
+.home-navbar-wrapper {
+  height: 10%;
+  width: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(90, 60, 45);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.home-logo-wrapper {
+  width: 75%;
+  display: flex;
+  padding-left: 2%;
+  font-size: xx-large;
+}
+
+.home-links-wrapper {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.home-links {
+  color: white;
+  text-decoration: none;
+}
